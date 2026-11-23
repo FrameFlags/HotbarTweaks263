@@ -1,4 +1,4 @@
-# Hotbar Tweaks — Minecraft 26.3 (all loaders)
+# Hotbar Tweaks — Minecraft 26.3 (all loaders + 1.20.1 Fabric/Forge)
 
 Client hotbar rules: non-wrapping scroll and Stardew-style row/column shifting. Scaffold release: rules and metadata only; in-game event wiring is not included.
 
@@ -12,6 +12,7 @@ for the distinction between compiled, loaded and functionally verified.
 ## Layout
 
 - `26.3-fabric/`, `26.3-forge/`, `26.3-neoforge/` — Minecraft 26.3, Java 25.
+- `1.20.1-fabric/`, `1.20.1-forge/` — Minecraft 1.20.1, Java 17.
 
 ## Build & tests (GitHub only)
 
