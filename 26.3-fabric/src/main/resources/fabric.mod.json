@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "hotbartweaks263",
+  "version": "${version}",
+  "name": "Hotbar Tweaks",
+  "description": "Client hotbar rules: non-wrapping scroll and Stardew-style row/column shifting. Scaffold release: rules and metadata only; in-game event wiring is not included.",
+  "authors": ["Itamio"],
+  "contact": {"homepage": "https://github.com/FrameFlags/HotbarTweaks263", "sources": "https://github.com/FrameFlags/HotbarTweaks263", "issues": "https://github.com/FrameFlags/HotbarTweaks263/issues"},
+  "license": "MIT/MPL-2.0",
+  "environment": "client",
+  "entrypoints": {"main": ["itamio.hotbartweaks.HotbarTweaksMod"]},
+  "depends": {"fabricloader": ">=0.20.1", "fabric-api": "*", "minecraft": "~26.3", "java": ">=25"}
+}
