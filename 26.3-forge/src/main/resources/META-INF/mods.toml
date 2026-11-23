@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[66,)"
+license = "MIT/MPL-2.0"
+
+[[mods]]
+modId = "hotbartweaks263"
+version = "1.0.0"
+displayName = "Hotbar Tweaks"
+authors = "Itamio"
+description = '''
+Client hotbar rules: non-wrapping scroll and Stardew-style row/column shifting. Scaffold release: rules and metadata only; in-game event wiring is not included.
+'''
+
+[[dependencies.hotbartweaks263]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[66,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.hotbartweaks263]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[26.3,26.4)"
+    ordering = "NONE"
+    side = "BOTH"
